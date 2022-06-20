@@ -1,36 +1,36 @@
-HW_1. The first part
+п»їHW_1. The first part
 Linux terminal (GitBash) commands
 
-1. Посмотреть где я
+1. РџРѕСЃРјРѕС‚СЂРµС‚СЊ РіРґРµ СЏ
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group
 $ pwd
 /d/INFORMATION/QA_30_Group
 
-2. Создать папку
+2. РЎРѕР·РґР°С‚СЊ РїР°РїРєСѓ
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group
 $ mkdir QA_1
 
-3. Зайти в папку
+3. Р—Р°Р№С‚Рё РІ РїР°РїРєСѓ
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group
 $ cd QA_1
 
-4. Создать 3 папки
+4. РЎРѕР·РґР°С‚СЊ 3 РїР°РїРєРё
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group/QA_1
 $ mkdir QA_2 QA_3 QA_4
 
-5. Зайти в любую папку
+5. Р—Р°Р№С‚Рё РІ Р»СЋР±СѓСЋ РїР°РїРєСѓ
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group/QA_1
 $ cd QA_4
 
-6. Создать 5 файлов (3 txt, 2 json)
+6. РЎРѕР·РґР°С‚СЊ 5 С„Р°Р№Р»РѕРІ (3 txt, 2 json)
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group/QA_1/QA_4
 $ touch 1txt.txt 2txt.txt 3txt.txt 1json.json 2json.json
 
-7. Создать 3 папки
+7. РЎРѕР·РґР°С‚СЊ 3 РїР°РїРєРё
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group/QA_1/QA_4
 $ mkdir QA_4_1 QA_4_2 QA_4_3
 
-8. Вывести список содержимого папки
+8. Р’С‹РІРµСЃС‚Рё СЃРїРёСЃРѕРє СЃРѕРґРµСЂР¶РёРјРѕРіРѕ РїР°РїРєРё
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group/QA_1/QA_4
 $ ls -la
 total 4
@@ -45,38 +45,38 @@ drwxr-xr-x 1 Byuer 197121 0 Jun  4 12:53 QA_4_1/
 drwxr-xr-x 1 Byuer 197121 0 Jun  4 12:53 QA_4_2/
 drwxr-xr-x 1 Byuer 197121 0 Jun  4 12:53 QA_4_3/
 
-9. Открыть любой txt файл
+9. РћС‚РєСЂС‹С‚СЊ Р»СЋР±РѕР№ txt С„Р°Р№Р»
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group/QA_1/QA_4
 $ vim 1txt.txt
 
-10. Написать туда что-нибудь, любой текст.
-i (режим INSERT), текст: "Hello, QA_30_Group!"
-ESC (выйти из режима редактирования)
+10. РќР°РїРёСЃР°С‚СЊ С‚СѓРґР° С‡С‚Рѕ-РЅРёР±СѓРґСЊ, Р»СЋР±РѕР№ С‚РµРєСЃС‚.
+i (СЂРµР¶РёРј INSERT), С‚РµРєСЃС‚: "Hello, QA_30_Group!"
+ESC (РІС‹Р№С‚Рё РёР· СЂРµР¶РёРјР° СЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёСЏ)
 
-11. Сохранить и выйти.
+11. РЎРѕС…СЂР°РЅРёС‚СЊ Рё РІС‹Р№С‚Рё.
 :wq
-(в файле 1txt.txt запись Hello, QA_30_Group!
+(РІ С„Р°Р№Р»Рµ 1txt.txt Р·Р°РїРёСЃСЊ Hello, QA_30_Group!
 )
 
-12. Выйти из папки на уровень выше
+12. Р’С‹Р№С‚Рё РёР· РїР°РїРєРё РЅР° СѓСЂРѕРІРµРЅСЊ РІС‹С€Рµ
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group/QA_1/QA_4
 $ cd ..
 
-13. Переместить любые 2 файла, которые вы создали, в любую другую папку.
+13. РџРµСЂРµРјРµСЃС‚РёС‚СЊ Р»СЋР±С‹Рµ 2 С„Р°Р№Р»Р°, РєРѕС‚РѕСЂС‹Рµ РІС‹ СЃРѕР·РґР°Р»Рё, РІ Р»СЋР±СѓСЋ РґСЂСѓРіСѓСЋ РїР°РїРєСѓ.
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group/QA_1
 $ mv QA_4/1json.json QA_4/QA_4_1/1json.json
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group/QA_1
 $ mv QA_4/2json.json QA_4/QA_4_1/2json.json
 (mv QA_4/1json.json QA_4/QA_4_1/1json.json ; mv QA_4/2json.json QA_4/QA_4_1/2json.json)
 
-14. Скопировать любые 2 файла, которые вы создали, в любую другую папку.
+14. РЎРєРѕРїРёСЂРѕРІР°С‚СЊ Р»СЋР±С‹Рµ 2 С„Р°Р№Р»Р°, РєРѕС‚РѕСЂС‹Рµ РІС‹ СЃРѕР·РґР°Р»Рё, РІ Р»СЋР±СѓСЋ РґСЂСѓРіСѓСЋ РїР°РїРєСѓ.
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group/QA_1
 $ cp QA_4/2txt.txt QA_4/QA_4_2/2txt.txt
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group/QA_1
 $ cp QA_4/3txt.txt QA_4/QA_4_2/3txt.txt
 (cp QA_4/2txt.txt QA_4/QA_4_2/2txt.txt ; cp QA_4/3txt.txt QA_4/QA_4_2/3txt.txt)
 
-15. Найти файл по имени
+15. РќР°Р№С‚Рё С„Р°Р№Р» РїРѕ РёРјРµРЅРё
 Byuer@Sonic MINGW64 /d/INFORMATION/QA_30_Group/QA_1
 $ find . -name 3txt.txt
 ./QA_4/3txt.txt
@@ -84,7 +84,7 @@ $ find . -name 3txt.txt
 (find QA_4 -name "3txt.txt")
 (find QA_4 -name "*.txt;")
 
-16. Просмотреть содержимое в реальном времени.
+16. РџСЂРѕСЃРјРѕС‚СЂРµС‚СЊ СЃРѕРґРµСЂР¶РёРјРѕРµ РІ СЂРµР°Р»СЊРЅРѕРј РІСЂРµРјРµРЅРё.
 Byuer@Sonic MINGW64 /d/information/QA_30_Group/QA_1/QA_4
 $ tail -f 1txt.txt
 Hello, QA_30_Group!
@@ -92,36 +92,36 @@ Hello, QA_30_Group!
 My practice in BASH
 Commands tail and grep
 I'm studying the terminal
-(пишу в файле, сохраняю, в терминале отображаются изменения в реальном времени)
-ctrl+C (прервать команду)
-(tail -f 1txt.txt | grep -rin "text" - искать слово text)
+(РїРёС€Сѓ РІ С„Р°Р№Р»Рµ, СЃРѕС…СЂР°РЅСЏСЋ, РІ С‚РµСЂРјРёРЅР°Р»Рµ РѕС‚РѕР±СЂР°Р¶Р°СЋС‚СЃСЏ РёР·РјРµРЅРµРЅРёСЏ РІ СЂРµР°Р»СЊРЅРѕРј РІСЂРµРјРµРЅРё)
+ctrl+C (РїСЂРµСЂРІР°С‚СЊ РєРѕРјР°РЅРґСѓ)
+(tail -f 1txt.txt | grep -rin "text" - РёСЃРєР°С‚СЊ СЃР»РѕРІРѕ text)
 
-17. Вывести несколько первых строк из текстового файла
+17. Р’С‹РІРµСЃС‚Рё РЅРµСЃРєРѕР»СЊРєРѕ РїРµСЂРІС‹С… СЃС‚СЂРѕРє РёР· С‚РµРєСЃС‚РѕРІРѕРіРѕ С„Р°Р№Р»Р°
 Byuer@Sonic MINGW64 /d/information/QA_30_Group/QA_1/QA_4
 $ head -3 1txt.txt
 Hello, QA_30_Group!
 
 My practice in BASH.
 
-18. Вывести несколько последних строк из текстового файла
+18. Р’С‹РІРµСЃС‚Рё РЅРµСЃРєРѕР»СЊРєРѕ РїРѕСЃР»РµРґРЅРёС… СЃС‚СЂРѕРє РёР· С‚РµРєСЃС‚РѕРІРѕРіРѕ С„Р°Р№Р»Р°
 Byuer@Sonic MINGW64 /d/information/QA_30_Group/QA_1/QA_4
 $ tail -2 1txt.txt
 Commands tail and grep.
 I'm studying the terminal.
 
-19. Просмотреть содержимое длинного файла (команда less), изучите как она работает.
+19. РџСЂРѕСЃРјРѕС‚СЂРµС‚СЊ СЃРѕРґРµСЂР¶РёРјРѕРµ РґР»РёРЅРЅРѕРіРѕ С„Р°Р№Р»Р° (РєРѕРјР°РЅРґР° less), РёР·СѓС‡РёС‚Рµ РєР°Рє РѕРЅР° СЂР°Р±РѕС‚Р°РµС‚.
 Byuer@Sonic MINGW64 /d/information/QA_30_Group/QA_1/QA_4
 $ less 1txt.txt
-(открывается режим просмотра в текущем окне, перелистывать w, z, поиск текста /, выйти - q)
+(РѕС‚РєСЂС‹РІР°РµС‚СЃСЏ СЂРµР¶РёРј РїСЂРѕСЃРјРѕС‚СЂР° РІ С‚РµРєСѓС‰РµРј РѕРєРЅРµ, РїРµСЂРµР»РёСЃС‚С‹РІР°С‚СЊ w, z, РїРѕРёСЃРє С‚РµРєСЃС‚Р° /, РІС‹Р№С‚Рё - q)
 
-20. Вывести дату и время
+20. Р’С‹РІРµСЃС‚Рё РґР°С‚Сѓ Рё РІСЂРµРјСЏ
 Byuer@Sonic MINGW64 /d/information/QA_30_Group/QA_1/QA_4
 $ date
 Sun Jun  5 01:29:26     2022
 ======================
 
-Задание *
-1) Отправить http запрос на сервер.
+Р—Р°РґР°РЅРёРµ *
+1) РћС‚РїСЂР°РІРёС‚СЊ http Р·Р°РїСЂРѕСЃ РЅР° СЃРµСЂРІРµСЂ.
 http://162.55.220.72:5005/terminal-hw-request
 
 $ curl "http://162.55.220.72:5005/terminal-hw-request"
@@ -162,7 +162,7 @@ Date: Wed, 08 Jun 2022 06:27:53 GMT
   "39"
 ]
 
-2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+2) РќР°РїРёСЃР°С‚СЊ СЃРєСЂРёРїС‚ РєРѕС‚РѕСЂС‹Р№ РІС‹РїРѕР»РЅРёС‚ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РїСѓРЅРєС‚С‹ 3, 4, 5, 6, 7, 8, 13
 
 touch script
 vim script
